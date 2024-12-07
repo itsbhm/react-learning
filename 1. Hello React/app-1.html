@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Hello React</h1>
+    </div>
+
+
+    <script>
+        // <h4>Another Hello, From JS</h4>
+        const headingElement = document.createElement("h4");
+        headingElement.innerHTML = "Another Hello, From JS";
+
+        const newElement = document.getElementById("app");
+        newElement.appendChild(headingElement);
+    </script>
+</body>
+</html>
